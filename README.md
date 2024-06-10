@@ -1,14 +1,14 @@
-# Java Desktop Swing Application with MySQL JDBC Connectivity
+# Java Desktop Swing Application for Electricity Billing with MySQL JDBC Connectivity
 
 ## Project Description
 
-This GitHub project showcases a Java desktop application built using Swing for the graphical user interface (GUI) and MySQL JDBC for database connectivity. The application demonstrates how to create a user-friendly desktop interface for managing data, along with robust backend integration to handle database operations seamlessly. The combination of Swing and MySQL JDBC ensures a smooth and efficient experience for both users and developers.
+This GitHub project demonstrates an electricity billing software application built using Java Swing for the graphical user interface (GUI) and MySQL JDBC for database connectivity. The application provides a user-friendly interface for managing electricity bills, customer information, and payment records, with robust backend integration for seamless database operations. The combination of Swing and MySQL JDBC ensures an efficient experience for both users and developers.
 
 ## Key Features
 
 1. **User-Friendly GUI with Swing**:
     - **Responsive Design**: Create a dynamic and interactive user interface using Java Swing components such as JFrame, JPanel, JButton, JLabel, JTextField, JTable, and more.
-    - **Form Handling**: Implement various forms for data entry, updates, and deletions, ensuring a smooth user experience.
+    - **Bill Management**: Implement forms for data entry, updates, and deletions related to electricity bills, customer information, and payment records.
     - **Real-time Feedback**: Provide real-time feedback to users through message dialogs and status indicators.
 
 2. **Database Connectivity with MySQL JDBC**:
@@ -17,9 +17,9 @@ This GitHub project showcases a Java desktop application built using Swing for t
     - **Error Handling**: Implement robust error handling mechanisms to manage database connectivity issues and SQL errors.
 
 3. **Data Management**:
-    - **Data Retrieval**: Fetch data from the MySQL database and display it in Swing components such as JTable.
-    - **Data Entry and Validation**: Allow users to enter and validate data before saving it to the database.
-    - **Data Updates and Deletions**: Enable users to update and delete existing records with appropriate validation checks.
+    - **Customer Information**: Manage customer details such as names, addresses, contact information, and billing records.
+    - **Bill Generation**: Generate electricity bills based on consumption data and tariff rates.
+    - **Payment Tracking**: Track payments and update billing records accordingly.
 
 ## Getting Started
 
@@ -36,8 +36,9 @@ Ensure you have the following installed:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/KalimMulani/Electricity-Billing-Destop-Application.git
-   cd Electricity-Billing-Destop-Application
+   git clone https://github.com/yourusername/yourrepository.git
+   cd yourrepository
+
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
